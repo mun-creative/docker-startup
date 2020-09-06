@@ -9,7 +9,7 @@ before_install:
     
     
 script:
-    - docker run mun-creative/docker-startup npm run test -- --coverage
+    - docker run mun-creative/docker-startup npm run test -- --coverage  --watchAll=false
     
 
 deploy:
